@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color:lightslategray;
+    font-family: sans-serif;
+}
+
+.main-container{
+    background-color: white;
+    width: 90%;
+    margin: auto;
+    padding: 10px;
+}
+
+.img-header{
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+.img-header img{
+    width: 20%;
+}
+
+.menu-header{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    flex-wrap: wrap;
+}
+
+.menu-header a{
+    flex: 1;
+    text-decoration: none;
+    background-color: rgb(228, 23, 23);
+    color: white;
+    padding: 10px;
+    border: 1px solid white;
+    text-align: center;
+}
+
+.menu-header a:hover{
+    background-color: rgb(226, 230, 17);
+    color: black;
+}
+.info-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.paket-container{
+    width: 300px;
+    margin: 10px;
+}
+
+.paket-container h4{
+    color: rgb(110, 96, 96);
+}
+
+.paket-container img {
+    width: 100%;
+}
+
+.video-container{
+    width: 300px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.video-container iframe {
+    width: 100%;
+    height: auto;
+}
+
+.search-container{
+    margin-bottom: 10px;
+}
+
+.search-container input[type='text']{
+    padding: 5px;
+    margin-right: 10px;
+}
+
+.search-container input[type='submit']{
+    padding: 5px;
+}
+
+.brand-container{
+    width: 40%;
+    position: absolute;
+    top: 15%;
+    left: 10%;
+}
+
+.brand-container img{
+    width: 80%;
+}
+
+.brand-container h1{
+    color: white;
+    margin: 0;
+    font-size: 2.5vw;
+    text-shadow: 2px 2px 8px #000;
+    font-family: "Playwrite BE VLG", cursive;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+.brand-container h2{
+    color: white;
+    margin: 0;
+    font-size: 1.5vw;
+    text-shadow: 2px 2px 8px #000;
+    font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
